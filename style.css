@@ -1,0 +1,78 @@
+body{
+    background-color:grey;
+   }
+   
+.sec4 form{
+   
+    margin: auto;
+    justify-content:space-around;
+    
+    padding: 10px;
+    border-radius: 25px;
+}
+.nav4{
+     display: grid; 
+     place-items: center; 
+     /* border: 5px solid rgba(128, 63, 145, 0.733);  */
+    /* border-radius: 25px; */
+    width: 350px;
+    margin: auto;
+    height: auto;
+    box-shadow:2px 5px grey ;
+   
+}
+.nav4 input{
+    border:none;
+    border:2px solid rgba(105, 19, 145, 0.733);
+    border-radius: 15px;
+    height: 30px;
+    width: 300px;
+    background-color:rgba(134, 1, 78, 0.5);
+    margin: 20px;
+    padding-left:10px;
+}
+.nav4 textarea{
+    border:none;
+    border:2px solid  rgba(105, 19, 145, 0.733);
+    border-radius: 15px;
+    height: 75px;
+    width: 300px;
+    background-color: rgba(134, 1, 78, 0.185);
+    margin:20px;
+    padding-left:10px;
+} 
+.nav4 label{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(134, 1, 79);
+}
+.nav4 ::placeholder{
+    color:rgba(0, 0, 0, 0.555);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button{
+    border: none;
+    border: 2px solid rgb(134, 1, 79);
+    margin-left: 105px;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 3vh;
+    margin-top: 10px;
+
+}
+ #button:hover{
+    background-color: rgba(137, 43, 226, 0.212);
+    color: rgb(255, 255, 255);
+    transform: 0.5s;
+}
+.nav4 fieldset{
+    border:none;
+    border: 3px solid purple;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 650px;
+    
+}
